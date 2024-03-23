@@ -1,0 +1,29 @@
+[
+    
+    {
+        "id": 1,
+        "title": "Kaz   ",
+        "des": "Irasshaimase!",
+        "img": "/assets/UwZD.gif"
+    },
+    {
+        "id": 2,
+        "title": "The Blogz",
+        "des": "lorem ipsum des",
+        "img": "/assets/fuck1.gif"
+    },
+    {
+        "id": 3,
+        "title": "Muzak2k",
+        "des": "lorem ipsum des",
+        "img": "/assets/fuck2.gif"
+    },
+    {
+        "id": 4,
+        "title": "The Bands",
+        "des": "lorem ipsum des",
+        "img": "/assets/ghigp.gif"
+    }
+
+
+]

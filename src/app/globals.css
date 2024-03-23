@@ -1,0 +1,376 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  background-color: inherit;
+}
+
+.css-10hburv-MuiTypography-root {
+  color: white;
+}
+
+
+h1 {
+
+  margin: 0.25em 0;
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: -0.02;
+  color: white;
+}
+
+
+.h1_hollow {
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+/* end lottie */
+
+body {
+  background-color: rgb(28 28 28);
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+/* navbar */
+
+nav {
+  /* border: solid white; */
+  /* position: sticky;     */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+  /* margin-left: 2rem; */
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+
+  font-weight: bold;
+
+}
+
+/* .header {
+  border: solid white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-inline-end: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 10rem;
+  position: relative;
+  z-index: 9999;
+  justify-content: space-between;
+}
+
+.header__menu {
+  border: solid white;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  
+} */
+
+.navbar-menu-container {
+  display: none;
+}
+
+
+.navbar-links-container {
+  position: relative;
+  display: flex;
+  /* border: solid white; */
+  /* gap: 0.5rem; */
+  color: white;
+}
+
+.nav-logo-container h1 {
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+
+
+.navbar-links-container a {
+
+  margin-right: 3rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar-links-container a:hover {
+  transform: scale(1.15);
+}
+
+/* home  */
+
+.home-banner-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* border: solid white; */
+  position: relative;
+  align-items: center;
+  display: flex;
+  /* display: flex;
+  display: flex; */
+  padding-top: 1rem;
+  color: white;
+
+}
+
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .navbar-links-container a {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+
+  .primary-button {
+    font-size: 1rem;
+  }
+
+  .home-bannerImage-container {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-logo-container {
+    max-width: 140px;
+  }
+
+  .navbar-links-container {
+    display: none;
+  }
+
+  .navbar-menu-container {
+    display: flex;
+  }
+
+  .home-bannerImage-container {
+    max-width: 450px;
+  }
+
+  .home-banner-container,
+  .about-section-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-section-container {
+    flex-direction: column;
+  }
+
+  .home-image-section,
+  .about-section-image-container {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .primary-heading {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .primary-text {
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .home-text-section,
+  .about-section-text-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .secondary-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+  }
+
+  .about-section-container {
+    margin-top: 5rem !important;
+  }
+
+  .about-buttons-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .primary-subheading {
+    text-align: center;
+  }
+
+  .watch-video-button {
+    margin-left: 0rem !important;
+    margin-top: 1rem;
+    font-size: 1rem !important;
+  }
+
+  .watch-video-button svg {
+    margin-right: 0.5rem !important;
+  }
+
+  .about-section-image-container {
+    margin-right: 0rem !important;
+  }
+
+  .work-section-wrapper {
+    margin-top: 5rem !important;
+  }
+
+  .work-section-bottom {
+    margin-top: 1rem !important;
+  }
+
+  .contact-form-container {
+    padding: 0.5rem !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem !important;
+  }
+
+  .contact-form-container input {
+    font-size: 1rem !important;
+    max-width: 100%;
+    padding: 0.5rem 1rem !important;
+    margin-bottom: 0.8rem !important;
+    text-align: center;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-section-two {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .footer-section-columns {
+    margin: 1rem 0rem;
+  }
+
+  .App {
+    max-width: 95vw;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .home-bannerImage-container,
+  .about-background-image-container {
+    display: none;
+  }
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  background-color: transparent;
+  color: #fff;
+}
+
+.css-k1iplu-JoyTypography-root {
+  color: white
+}
+
+
+
+.text-con {
+  /* flex: 1; */
+  /* border: solid red; */
+  margin-bottom: auto;
+  width: 100%;
+  /* overflow-y: auto; */
+  /* margin: 0px; */
+  /* float: left;
+  padding: 20px;
+  border: 2px solid red; */
+}
+
+.text-con:first-child {
+  /* border: solid green; */
+  margin-bottom: auto;
+  justify-content: end;
+  /* padding-left: 0px auto; */
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 300px;
+  /* Added */
+  padding-right: 0px auto;
+  /* margin-right: 50px; */
+
+  width: 100%;
+
+  /* margin-right: 20px; */
+  /* margin-bottom: 5rem; */
+  /* margin-left: 5rem; */
+  /* flex-wrap: wrap;
+  display: flex;
+  align-items: center; */
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+
+  /* width: 600px;
+    height: 300px; */
+  transition: all 0.3s;
+  margin-right: 100px;
+  /* position: relative; */
+}
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item:hover {
+  transform: scale(1.15);
+  z-index: 1;
+
+
+}
