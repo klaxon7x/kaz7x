@@ -11,15 +11,6 @@
 
 }
 
-.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-  background-color: inherit;
-}
-
-.css-10hburv-MuiTypography-root {
-  color: white;
-}
-
-
 h1 {
 
   margin: 0.25em 0;
@@ -312,15 +303,6 @@ nav {
   }
 }
 
-.css-1ri6ub7-MuiPaper-root-MuiCard-root {
-  background-color: transparent;
-  color: #fff;
-}
-
-.css-k1iplu-JoyTypography-root {
-  color: white
-}
-
 
 
 .text-con {
@@ -336,6 +318,7 @@ nav {
 }
 
 .text-con:first-child {
+  
   /* border: solid green; */
   margin-bottom: auto;
   justify-content: end;
@@ -359,18 +342,16 @@ nav {
   align-items: center; */
 }
 
-.css-mhc70k-MuiGrid-root>.MuiGrid-item {
 
-  /* width: 600px;
-    height: 300px; */
+.MuiGrid-item {
+
   transition: all 0.3s;
   margin-right: 100px;
-  /* position: relative; */
 }
 
-.css-mhc70k-MuiGrid-root>.MuiGrid-item:hover {
+.MuiGrid-item:hover {
   transform: scale(1.15);
   z-index: 1;
 
-
 }
+

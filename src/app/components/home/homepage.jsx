@@ -10,7 +10,12 @@ export const homepage = () => {
   return (
     <div className='home-banner-container' >
       <div className='text-con'>
-        <Cards />
+        <div className="p1">
+
+          <Cards />
+
+
+        </div>
       </div>
       <div className="text-con">
         <h1>swudhead666  </h1>

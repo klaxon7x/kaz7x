@@ -15,12 +15,14 @@ export const Cards2 = () => {
         <>
             <Container maxWidth="lg">
 
-                <Grid container spacing={2} style={{ marginTop: "28px"}}>
+                <Grid container spacing={2} style={{ marginTop: "28px" }}>
                     {Carddata.map((result, index) => (
+
                         <Grid item xs={12} sm={4} ms={4} key={index}>
-                            
-                            <Card component="li" sx={{ minWidth: 300, flexGrow: 1 }}>
-                                <CardCover>
+
+                            <Card component="li"
+                                sx={{ minWidth: 300, flexGrow: 1 }}>
+                                <CardCover >
                                     <img
                                         src={result.img}
                                         srcSet="https://images.unsplash.com/photo-1502657877623-f66bf489d236?auto=format&fit=crop&w=800&dpr=2 2x"
@@ -28,7 +30,7 @@ export const Cards2 = () => {
                                         alt=""
                                     />
                                 </CardCover>
-                                <CardContent>
+                                <CardContent >
                                     <Typography
                                         level="body-lg"
                                         fontWeight="lg"
