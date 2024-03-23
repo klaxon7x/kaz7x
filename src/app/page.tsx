@@ -3,7 +3,7 @@ import Nav from './components/navbar/navbar';
 import Homepage from './components/home/homepage'
 
 
-export const page = () => {
+export default function page () {
   return (
     <div>
       <Nav/>
@@ -12,4 +12,3 @@ export const page = () => {
   )
 }
 
-export default page
