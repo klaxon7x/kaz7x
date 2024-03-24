@@ -127,15 +127,14 @@ nav {
 /* home  */
 
 .home-banner-container {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
   /* border: solid white; */
   position: relative;
-  align-items: center;
+  /* align-items: center; */
   display: flex;
-  /* display: flex;
-  display: flex; */
-  padding-top: 1rem;
+  
+  /* padding-top: 1rem; */
   color: white;
 
 }
@@ -303,7 +302,9 @@ nav {
   }
 }
 
-
+.text-con h1 {
+  word-wrap: break-word;
+}
 
 .text-con {
   /* flex: 1; */

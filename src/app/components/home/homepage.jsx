@@ -11,10 +11,7 @@ export const homepage = () => {
     <div className='home-banner-container' >
       <div className='text-con'>
         <div className="p1">
-
           <Cards />
-
-
         </div>
       </div>
       <div className="text-con">
@@ -22,7 +19,6 @@ export const homepage = () => {
         <p className='Ppx'>Am I confusing you? <br></br>My sort of personal webpage, currently in the works. </p>
         <div className='p2'>
           <Cards2 />
-
         </div>
       </div>
     </div>
